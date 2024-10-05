@@ -1,4 +1,4 @@
-# Handwriting-to-Text
+# Handwriting-to-Text (Work in Progress)
 
 This project implements a handwriting recognition system using MATLAB. The system performs preprocessing, segmentation, and feature extraction on handwritten characters and uses a k-Nearest Neighbors (kNN) classifier to recognize characters. The model is trained on the A-Z Handwritten Alphabets dataset.
 
