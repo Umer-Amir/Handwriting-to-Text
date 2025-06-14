@@ -1,0 +1,54 @@
+FINAL_CODE.m Methods:
+% Step 1: Load the image
+% Step 2: Convert to Grayscale if Necessary
+% Step 3: Improve Image Quality (Contrast Adjustment and Noise Reduction)
+% Step 4: Correct Skewness using Hough Transform
+% Step 5: Check Contrast Using Standard Deviation
+% Step 6: Apply Otsu's Thresholding
+% Step 7: Noise Removal
+% Step 8: Character Segmentation
+
+MID_CODE.m Methods:
+% Step 1: Load the image
+% Step 2: Check Contrast Using Standard Deviation
+% Step 3: Apply Otsu's Thresholding
+% Step 4.1: Remove Small Dots or Anomalies
+% Step 4.2: Remove Small Lines (Based on Aspect Ratio and Size)
+% Step 5: Segmentation with Dynamic Thresholding and Saving Segments
+
+List of OCR Models We Tried:
+Tesseract OCR
+
+Open-source OCR engine.
+Works offline.
+Requires installation and proper path configuration.
+Microsoft TrOCR (Base and Large Models)
+
+Transformer-based OCR model fine-tuned for handwritten text.
+Requires GPU for better performance.
+Can struggle with different handwriting styles without fine-tuning.
+PaddleOCR
+
+Lightweight and efficient OCR solution supporting multiple languages.
+Good accuracy and fast processing.
+Works with printed and handwritten text.
+EasyOCR
+
+Deep learning-based OCR for multiple languages.
+Simple and fast with good accuracy for handwritten text.
+Easy to set up and run.
+Google Cloud Vision API
+
+Cloud-based OCR with high accuracy.
+Offers free tier but requires API key.
+Works well with printed and handwritten text.
+Microsoft Azure Computer Vision API
+
+Cloud-based OCR service with free tier.
+High accuracy and supports handwritten text.
+Requires an API key for access.
+OCR.Space API
+
+Free online OCR API with limited usage.
+Good for quick tests but may struggle with handwriting.
+No need for installation.
