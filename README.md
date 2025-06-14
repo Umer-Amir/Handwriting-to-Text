@@ -1,7 +1,3 @@
-Sure! Here's the full text version for your `README.md`:
-
----
-
 # Handwriting-to-Text (Work in Progress)
 
 This project implements a handwriting recognition system using MATLAB. The system performs preprocessing, segmentation, and feature extraction on handwritten characters and uses a k-Nearest Neighbors (kNN) classifier to recognize characters. The model is trained on the A-Z Handwritten Alphabets dataset. This was developed as a Final Project for a Digital Image Processing course.
@@ -97,5 +93,3 @@ To recognize characters from a new handwritten image:
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-
-Let me know if you'd like to include sample outputs, screenshots, or a badge section too!
